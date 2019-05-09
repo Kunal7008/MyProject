@@ -13,7 +13,7 @@ public void getMyCode() {
 	System.setProperty("webdriver.chrome.driver", "C:\\Users\\KUNAL BHATTA\\Downloads\\chromedriver.exe");
 	driver= new ChromeDriver();
 	driver.manage().window().maximize();
-	driver.get("https://cricbuzz.com");
-	WebElement element=driver.findElement(By.linkText("Schedule"));
+	driver.get("https://flipkart.com");
+	//WebElement element=driver.findElement(By.linkText("Schedule"));
 }
 }
